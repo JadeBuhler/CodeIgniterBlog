@@ -27,5 +27,5 @@ ratings:
   - "**.py"
   - "**.rb"
 exclude_paths:
-    - system/
-    - user_guide/
+    - "system/"
+    - "user_guide/"
