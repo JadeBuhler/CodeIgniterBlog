@@ -1,26 +1,29 @@
 ---
 engines:
-  rubocop:
+  csslint:
     enabled: true
   duplication:
     enabled: true
     config:
       languages:
-      - "ruby"
+      - ruby
+      - javascript
+      - python
+      - php
+  eslint:
+    enabled: true
   fixme:
     enabled: true
-    exclude_paths:
-      - config/engines.yml
-  markdownlint:
+  phpmd:
     enabled: true
-    checks:
-      MD002: # "First header should be a h1 header"
-        enabled: false
 ratings:
   paths:
+  - "**.css"
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
   - "**.rb"
-  - "**.md"
-exclude_paths:
-  - .bundle/
-  - spec/**/*
-  - benchmarks/**/*
+exclude_paths: []
