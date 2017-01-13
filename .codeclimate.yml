@@ -27,9 +27,5 @@ ratings:
   - "**.py"
   - "**.rb"
 exclude_paths:
-  - "**.inc"
-  - "**.jsx"
-  - "**.module"
-  - "**.py"
-  - "**.rb"
-  - "**.php"
+    - "system/**"
+    - "user_guide/**"
