@@ -18,14 +18,5 @@ engines:
     enabled: true
 ratings:
   paths:
-  - "**.css"
-  - "**.inc"
-  - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
-  - "**.rb"
+  - "application"
 exclude_paths:
-    - "**/system/**"
-    - "**/user_guide/**"
